@@ -5,3 +5,6 @@ Export the head model to abaqus and prepare it to be simulated for bipolar elect
 Run the simulation in abaqus and export rpt files containing coords and electric fields
 Use interpolate_abaqus_field_part1 amd part2 for creating voxel wise mapping of electric field
 The other functions required within the above mentioned scripts are also provided.
+Several other MATLAB functions to compare segmentation from different simulation pipelines.
+Also functions are provided to post-process the electric field output from these pipelines.
+
